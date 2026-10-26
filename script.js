@@ -569,7 +569,7 @@ function openBorrowEmail(itemList, userInfo = {}) {
         `   - ${item.item} (${item._type})`
     ).join('\n');
 
-        const groupAdminUrl = `https://joli8136.github.io/closet-catalogue/admin.html?group=${group}`;
+        const groupAdminUrl = `https://browntheatreinv.github.io/closet-catalogue/admin.html?group=${group}`;
 
         const subject = `Borrow Request - ${groupName} Closet`;
         const body = 
